@@ -19,13 +19,14 @@
 > [Set up and sample package.json](./docs/pre-commit-hooks.md) - for prettier, eslint, husky, and lint-staged
 
 ---
+
 ## Github
 
 - [Branch Protections](https://docs.github.com/en/enterprise-server@3.0/github/administering-a-repository/managing-a-branch-protection-rule) - Set up rules to protect your branches. Sample set up [here](./docs/branch-protections.md)
 - [Github Pages with Jekyll](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll) - publish your static docs with github pages and added customization with Jekyll
-- []() - 
+- []() -
 
-> 
+>
 
 ---
 
