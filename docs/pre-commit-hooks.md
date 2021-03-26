@@ -4,6 +4,7 @@
 - [Lint-staged](https://www.npmjs.com/package/lint-staged)
 
 ### Installation
+
 ```
 npm install prettier husky lint-staged es-lint
 ```

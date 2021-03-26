@@ -1,23 +1,25 @@
 # Tech Tools
 
-## Terminal/IDE Setup (VSCode) 
+## Terminal/IDE Setup (VSCode)
 
 - [Code .](https://code.visualstudio.com/setup/mac) - Shortcut from terminal
 - [Spotify Manager](https://github.com/hnarayanan/shpotify) - Control Spotify from terminal
 - [Bash --> Zsh](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/) - Nice way to set up terminal to using zsh. Here's what [mine](static/zsh-sample-terminal.md) currently looks like
-> Preview md in Vscode with: `Command + Shift + V` on the file
+  > Preview md in Vscode with: `Command + Shift + V` on the file
 
 ---
 
 ## New Project Setup
+
 - Code Formatting
-    - [Prettier](https://prettier.io/en/install.html) - Code Formatter
-    - [Eslint](https://eslint.org/user-guide/getting-started) - Code Linter
+  - [Prettier](https://prettier.io/en/install.html) - Code Formatter
+  - [Eslint](https://eslint.org/user-guide/getting-started) - Code Linter
 - Pre-Commit Hooks
-    - [Husky](https://typicode.github.io/husky/#/) and [Lint-staged](https://www.npmjs.com/package/lint-staged) - pre-commit hook managers
-    - [Set up and sample package.json](./pre-commit-hooks.md) - for pre-commit hook to run prettier + eslint via husky and lint-staged
+  - [Husky](https://typicode.github.io/husky/#/) and [Lint-staged](https://www.npmjs.com/package/lint-staged) - pre-commit hook managers
+  - [Set up and sample package.json](./pre-commit-hooks.md) - for pre-commit hook to run prettier + eslint via husky and lint-staged
 - Github Branch Protection
-    - [Branch Protections](https://docs.github.com/en/enterprise-server@3.0/github/administering-a-repository/managing-a-branch-protection-rule) - Set up rules to protect your branches. Sample set up [here](./branch-protections.md)
+  - [Branch Protections](https://docs.github.com/en/enterprise-server@3.0/github/administering-a-repository/managing-a-branch-protection-rule) - Set up rules to protect your branches. Sample set up [here](./branch-protections.md)
+
 ---
 
 ## Publishing Docs
@@ -30,9 +32,11 @@
 ## Monorepos
 
 - [Lerna](https://lerna.js.org/) - multi-javascript/typescript package manager. Can build new packages directly or pull from existing repo, bringing in all commit history
+
 ---
 
 ## Front-End
+
 ### Frameworks
 
 - [React](https://reactjs.org/getting-started.html) - Fb-managed JS framework with fast startup (via create react app). Here's a [set up guide](./react-with-typescript.md) for React with Typescript.
@@ -55,6 +59,7 @@
 - [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) - Extensive Component Library with minimal [customization](https://getbootstrap.com/4.5/utilities/colors/)
 
 > Here's a [comparison](https://uxplanet.org/material-ui-vs-bootstrap-a-detailed-comparison-8fc9151db5ed) of Material UI vs. React Bootstrap
+
 ### Design
 
 - [Material Design](https://material.io/design) - system of guidelines, components, and tools supporting best practices of UI design
@@ -62,6 +67,7 @@
 - [coolors.io](https://coolors.co/) - Color scheme generator or explore trending palettes
 
 > Here's a [list of beautiful websites](./website-designs.md) (imo)
+
 ---
 
 ## Testing
@@ -69,4 +75,3 @@
 - [Mocha](https://mochajs.org/#installation) - JS-based tests organized in test suites (‘describe’-blocks) and test cases (‘it’-blocks)
 - [Cucumber](https://cucumber.io/) - acceptance testing framework organized via Feature/Scenario tests and GIVEN/WHEN/THEN "steps". Very readable for non-programmers
 - [Cypress](https://www.cypress.io/) - E2E testing written in JS typically used for frontend or UI testing with ability to fire REST requests via `cy.request`
-
